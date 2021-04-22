@@ -12,3 +12,4 @@ const Custom404: React.FC = () => {
 }
 
 export default Custom404
+export { Custom404 }

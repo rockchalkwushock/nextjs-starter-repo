@@ -87,7 +87,8 @@
       "prettier --write"
     ],
     "*.+(js|ts|tsx)": [
-      "eslint --fix"
+      "eslint --fix",
+      "jest --coverage --maxWorkers=25%"
     ]
   },
   "jest": {

@@ -14,3 +14,4 @@ const App: React.FC<Props> = ({ Component, pageProps }) => {
 }
 
 export default App
+export { App }
