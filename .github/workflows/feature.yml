@@ -51,11 +51,11 @@ jobs:
       - name: Type checking
         run: yarn run tsc
 
-      - name: Build
-        run: yarn build
-
       - name: Test
         run: yarn test:ci
+
+      - name: Build
+        run: yarn build
 
       - name: Deploying
         uses: amondnet/vercel-action@v20.0.0
