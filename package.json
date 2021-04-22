@@ -1,7 +1,7 @@
 {
   "name": "nextjs-starter-repo",
   "version": "1.0.0",
-  "description": "",
+  "description": "NextJS starter repository with TailwindCSS & TypeScript",
   "author": {
     "email": "me@codybrunner.dev",
     "name": "Cody Brunner",
@@ -12,6 +12,19 @@
     "url": "https://github.com/rockchalkwushock/nextjs-starter-repo.git"
   },
   "license": "MIT",
+  "keywords": [
+    "github-actions",
+    "nextjs",
+    "nextjs-boilerplate",
+    "nextjs-starter",
+    "nextjs-template",
+    "nextjs-typescript",
+    "plop",
+    "sass",
+    "tailwindcss",
+    "typescript",
+    "vercel"
+  ],
   "engines": {
     "node": "14.x"
   },

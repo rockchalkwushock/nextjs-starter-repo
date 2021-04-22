@@ -1,6 +1,6 @@
 # nextjs-starter-repo
 
-TODO: Description
+NextJS starter repository with TailwindCSS & TypeScript
 
 ## Usage
 
