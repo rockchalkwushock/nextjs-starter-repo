@@ -4,7 +4,19 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "rockchalkwushock",
+      "name": "Cody Brunner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19720404?v=4",
+      "profile": "https://codybrunner.dev",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
   "projectName": "nextjs-starter-repo",
   "projectOwner": "rockchalkwushock",
