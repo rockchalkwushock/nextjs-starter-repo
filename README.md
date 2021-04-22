@@ -47,6 +47,8 @@ alias yc="yarn commit"
 
 The configuration for `commitlint` and `commitizen` can be found in the `package.json`.
 
+> If you want to skip the CI/CD workflow on a commit you can add [skip ci] or [ci skip] to the commit message and GitHub will not execute the workflow.
+
 ### `husky` & `lint-staged`
 
 `husky` is used to run git hooks and `lint-staged` is used to format, lint, and test any code `pre-commit`.
