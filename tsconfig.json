@@ -21,6 +21,7 @@
       "@layouts/*": ["layouts/*"],
       "@lib/*": ["lib/*"],
       "@pages/*": ["pages/*"],
+      "@test-utils": ["utils/testUtils"],
       "@utils/*": ["utils/*"]
     },
     "resolveJsonModule": true,
@@ -28,6 +29,12 @@
     "strict": true,
     "target": "esnext"
   },
-  "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx", "next.config.js", "next-env.d.ts"]
+  "exclude": [".github", ".husky", ".next", "coverage", "node_modules"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "jest.setup.ts",
+    "next.config.js",
+    "next-env.d.ts"
+  ]
 }
