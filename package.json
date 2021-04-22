@@ -24,9 +24,9 @@
     "prepare": "husky install",
     "start": "next start",
     "test": "jest --maxWorkers=50%",
-    "test:ci": "jest --ci --runInBand",
+    "test:ci": "jest --ci --passWithNoTests --runInBand",
     "test:coverage": "yarn test --coverage",
-    "test:watch": "jest --maxWorkers=25% --watch",
+    "test:watch": "jest --maxWorkers=25% --onlyChanged --watch",
     "type-check": "tsc"
   },
   "dependencies": {
@@ -88,7 +88,7 @@
     ],
     "*.+(js|ts|tsx)": [
       "eslint --fix",
-      "jest --coverage --maxWorkers=25%"
+      "jest --lastCommit --maxWorkers=25% --passWithNoTests"
     ]
   },
   "jest": {
