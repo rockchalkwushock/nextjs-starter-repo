@@ -115,7 +115,8 @@
       "!pages/_app.tsx",
       "!pages/_document.tsx",
       "!utils/testUtils.tsx",
-      "!**/node_modules/**"
+      "!**/node_modules/**",
+      "!**/.plop/**"
     ],
     "globals": {
       "ts-jest": {
