@@ -36,6 +36,7 @@
     "lint": "eslint",
     "new": "plop",
     "prepare": "husky install",
+    "release": "standard-version",
     "start": "next start",
     "test": "jest --maxWorkers=50%",
     "test:ci": "jest --ci --passWithNoTests --runInBand",
@@ -72,6 +73,7 @@
     "postcss-import": "^14.0.1",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
+    "standard-version": "^9.2.0",
     "tailwindcss": "^2.1.1",
     "ts-jest": "^26.5.5",
     "typescript": "^4.2.4"
@@ -167,5 +169,25 @@
     "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "es5"
+  },
+  "standard-version": {
+    "types": [
+      {
+        "section": "Bugs 🐛",
+        "type": "fix"
+      },
+      {
+        "section": "Docs 📓",
+        "type": "docs"
+      },
+      {
+        "section": "Features 🎉",
+        "type": "feat"
+      },
+      {
+        "section": "Tests 🧪",
+        "type": "test"
+      }
+    ]
   }
 }
