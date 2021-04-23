@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Vercel
+.vercel
+
+# Editor
+.vscode
+
+# Misc
+.DS_Store
